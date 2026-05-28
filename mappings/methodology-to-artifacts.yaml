@@ -1,0 +1,128 @@
+activities:
+  02-01:
+    primary_artifacts:
+      - artifacts/project-charter.md
+    supporting_artifacts:
+      - artifacts/decision-log.md
+    templates:
+      - templates/project-charter.template.md
+    completion_evidence:
+      - contract basis summarized
+      - timing or commercial constraints visible
+  02-02:
+    primary_artifacts:
+      - artifacts/project-charter.md
+    templates:
+      - templates/project-charter.template.md
+    completion_evidence:
+      - project goal visible
+      - business value visible
+  02-03:
+    primary_artifacts:
+      - artifacts/scope-baseline.md
+    supporting_artifacts:
+      - artifacts/project-charter.md
+    templates:
+      - templates/scope-baseline.template.md
+    completion_evidence:
+      - in-scope and out-of-scope explicit
+      - acceptance direction visible
+  02-04:
+    primary_artifacts:
+      - artifacts/risk-register.csv
+    templates:
+      - templates/risk-register.template.csv
+    completion_evidence:
+      - major risks captured
+      - category and status vocabulary respected
+  02-05:
+    primary_artifacts:
+      - artifacts/raci.md
+    supporting_artifacts:
+      - artifacts/project-charter.md
+    templates:
+      - templates/raci.template.md
+    completion_evidence:
+      - key roles visible
+      - approval ownership visible
+  02-06:
+    primary_artifacts:
+      - artifacts/project-charter.md
+      - artifacts/decision-log.md
+    templates:
+      - templates/project-charter.template.md
+      - templates/decision-log.template.md
+    completion_evidence:
+      - delivery mode visible
+      - change and decision handling visible
+  03-01:
+    primary_artifacts:
+      - artifacts/current-state-analysis.md
+    completion_evidence:
+      - current state documented
+      - why-change case visible
+  03-02:
+    primary_artifacts:
+      - artifacts/architecture-summary.md
+    templates:
+      - templates/architecture-summary.template.md
+    completion_evidence:
+      - major components visible
+      - interfaces visible
+  03-03:
+    primary_artifacts:
+      - artifacts/backlog.md
+      - artifacts/roadmap.md
+    templates:
+      - templates/backlog.template.md
+      - templates/roadmap.template.md
+    completion_evidence:
+      - backlog exists
+      - roadmap exists
+      - dependencies visible
+  03-04:
+    primary_artifacts:
+      - artifacts/risk-register.csv
+    templates:
+      - templates/risk-register.template.csv
+    completion_evidence:
+      - mitigation visible
+      - owner or owner candidate visible
+  03-05:
+    primary_artifacts:
+      - artifacts/communication-plan.md
+    supporting_artifacts:
+      - artifacts/raci.md
+    templates:
+      - templates/communication-plan.template.md
+    completion_evidence:
+      - channels visible
+      - meeting cadence visible
+      - escalation visible
+  03-06:
+    primary_artifacts:
+      - artifacts/metrics.md
+    templates:
+      - templates/metrics.template.md
+    completion_evidence:
+      - measurement method visible
+      - audience or owner visible
+  04-04:
+    primary_artifacts:
+      - artifacts/status-reports/
+    supporting_artifacts:
+      - artifacts/roadmap.md
+      - artifacts/risk-register.csv
+    templates:
+      - templates/status-report.template.md
+    completion_evidence:
+      - current health visible
+      - updates driven by monitoring visible
+  04-05:
+    primary_artifacts:
+      - artifacts/status-reports/
+    templates:
+      - templates/status-report.template.md
+    completion_evidence:
+      - progress vs plan visible
+      - decisions needed visible

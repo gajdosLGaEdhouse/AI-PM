@@ -1,0 +1,7 @@
+project_id: twm-example
+project_name: Tool Wear Monitoring
+working_language: en
+active_phase: planning
+bundle_path: pm-bundle
+sources_path: sources
+artifacts_path: artifacts

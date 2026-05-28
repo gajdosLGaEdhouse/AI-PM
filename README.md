@@ -1,5 +1,3 @@
-# AI-PM
-
 # AI PM Bundle
 
 Reusable bundle for methodology-driven, AI-assisted project management based on the Edhouse project-management methodology.

@@ -1,0 +1,8 @@
+type: table
+required_columns:
+  - Decision ID
+  - Date
+  - Title
+  - Status
+  - Summary
+  - Impacted artifacts

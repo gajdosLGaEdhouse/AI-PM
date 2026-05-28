@@ -1,0 +1,7 @@
+project_id: example-project
+project_name: Example Project
+working_language: en
+active_phase: initiation
+bundle_path: pm-bundle
+sources_path: sources
+artifacts_path: artifacts

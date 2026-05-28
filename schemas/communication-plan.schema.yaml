@@ -1,0 +1,7 @@
+type: object
+required:
+  - parties
+  - communication_rules
+  - meetings
+  - escalation
+  - bug_reporting

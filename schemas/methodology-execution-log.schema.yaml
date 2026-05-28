@@ -1,0 +1,8 @@
+type: table
+required_columns:
+  - Activity ID
+  - Activity name
+  - Status
+  - Owner
+  - Artifact links
+  - Last reviewed
