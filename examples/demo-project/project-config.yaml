@@ -1,0 +1,67 @@
+# Project Configuration for Demo: AI-Powered Compliance Dashboard
+
+project_id: compliance-dashboard-demo
+project_name: AI-Powered Compliance Dashboard
+project_code: AICD
+customer: RegTech Finance Inc.
+supplier: TechBuild Solutions
+working_language: en
+active_phase: initiation
+
+bundle_path: ../../ai-pm-bundle
+sources_path: sources
+artifacts_path: artifacts
+documentation_path: documentation
+
+project_start_date: 2026-05-28
+estimated_completion: 2026-11-30
+estimated_duration_months: 6
+
+team_size_delivery: 7
+team_size_customer: 4
+
+delivery_model: hybrid
+governance_level: standard
+
+phase_initiation_end: 2026-06-30
+phase_planning_end: 2026-08-31
+phase_delivery_start: 2026-09-01
+
+stakeholder_catalog: sources/stakeholder-list.md
+
+source_documents:
+  - business-case.md
+  - market-analysis.md
+  - technical-proposal.md
+  - stakeholder-list.md
+
+bootstrap_artifacts:
+  - artifacts/project-charter.md
+  - artifacts/scope-baseline.md
+  - artifacts/risk-register.csv
+  - artifacts/methodology-execution-log.md
+  - artifacts/decision-log.md
+
+extended_artifacts:
+  - artifacts/raci.md
+  - artifacts/communication-plan.md
+  - artifacts/architecture-summary.md
+  - artifacts/metrics.md
+  - artifacts/backlog.md
+  - artifacts/roadmap.md
+
+methodology:
+  framework: edhouse
+  adaptation_level: extended
+  custom_phases:
+    - initiation
+    - planning
+    - delivery
+    - closure
+
+risk_tolerance: medium
+
+notes: |
+  This is a demo/example project instance showing how to use the AI-PM Bundle
+  for a realistic SaaS development project. All company and stakeholder names
+  are fictional.
