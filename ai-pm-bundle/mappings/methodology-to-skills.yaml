@@ -1,0 +1,71 @@
+activities:
+  02-01:
+    default_skill: skills/source-to-charter.md
+    optional_skills: []
+    prerequisites:
+      - one commercial or project brief source
+  02-02:
+    default_skill: skills/source-to-charter.md
+    optional_skills: []
+    prerequisites:
+      - project brief or discovery source
+  02-03:
+    default_skill: skills/source-to-scope.md
+    optional_skills:
+      - skills/source-to-charter.md
+    prerequisites:
+      - scope-bearing source material
+  02-04:
+    default_skill: skills/source-to-risk-register.md
+    optional_skills: []
+    prerequisites:
+      - at least two risk-bearing sources
+  02-05:
+    default_skill: none
+    optional_skills: []
+    prerequisites:
+      - stakeholder or role evidence
+  02-06:
+    default_skill: skills/source-to-charter.md
+    optional_skills: []
+    prerequisites:
+      - governance-bearing source material
+  03-02:
+    default_skill: none
+    optional_skills:
+      - skills/solution-to-backlog.md
+    prerequisites:
+      - architecture-bearing source material
+  03-03:
+    default_skill: skills/solution-to-backlog.md
+    optional_skills:
+      - skills/backlog-to-roadmap.md
+    prerequisites:
+      - scope baseline
+      - architecture summary or equivalent
+  03-04:
+    default_skill: skills/source-to-risk-register.md
+    optional_skills: []
+    prerequisites:
+      - risk-bearing sources or existing register
+  03-05:
+    default_skill: none
+    optional_skills: []
+    prerequisites:
+      - communication conventions or stakeholder evidence
+  03-06:
+    default_skill: none
+    optional_skills: []
+    prerequisites:
+      - metrics intent or reporting expectations
+  04-04:
+    default_skill: skills/project-state-to-status-report.md
+    optional_skills:
+      - skills/meeting-to-actions.md
+    prerequisites:
+      - current state artifacts
+  04-05:
+    default_skill: skills/project-state-to-status-report.md
+    optional_skills: []
+    prerequisites:
+      - current state artifacts

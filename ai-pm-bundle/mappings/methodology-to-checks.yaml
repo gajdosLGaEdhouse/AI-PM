@@ -1,0 +1,105 @@
+activities:
+  02-01:
+    required_questions:
+      - What commercial or contractual basis exists?
+      - What timing, budget, or capacity constraints matter?
+    artifact_checks:
+      - charter reflects contract basis
+    readiness_checks:
+      - project subject can be stated clearly
+    failure_signals:
+      - no reliable commercial source
+  02-02:
+    required_questions:
+      - What concrete business goal should the project achieve?
+      - Who benefits and how?
+    artifact_checks:
+      - charter goal is explicit
+    readiness_checks:
+      - goal is specific enough to guide scope
+    failure_signals:
+      - goal remains generic or contradictory
+  02-03:
+    required_questions:
+      - What is explicitly in scope and out of scope?
+      - What is the acceptance direction?
+    artifact_checks:
+      - scope baseline has explicit boundary
+    readiness_checks:
+      - major exclusions are visible
+    failure_signals:
+      - no clear boundary between included and excluded work
+  02-04:
+    required_questions:
+      - What are the major technical, time, staffing, and external risks?
+      - Who should own tracking?
+    artifact_checks:
+      - risk register has controlled vocabulary
+    readiness_checks:
+      - major risks have owner or owner candidate
+    failure_signals:
+      - major known uncertainty missing from register
+  02-05:
+    required_questions:
+      - Who approves scope, priorities, release, and acceptance?
+    artifact_checks:
+      - RACI shows key responsibilities
+    readiness_checks:
+      - approval ownership is visible
+    failure_signals:
+      - key approval roles unknown
+  03-02:
+    required_questions:
+      - What systems, interfaces, and environments are involved?
+    artifact_checks:
+      - architecture summary names major components and interfaces
+    readiness_checks:
+      - enough architecture clarity exists for decomposition
+    failure_signals:
+      - critical solution shape unknown
+  03-03:
+    required_questions:
+      - What work decomposition exists?
+      - What staffing and milestone assumptions apply?
+    artifact_checks:
+      - backlog and roadmap both exist
+    readiness_checks:
+      - major dependencies are visible
+    failure_signals:
+      - roadmap cannot be traced back to scope
+  03-05:
+    required_questions:
+      - Which channels, meetings, escalation path, and bug-reporting flow apply?
+    artifact_checks:
+      - communication plan has parties, cadence, and escalation
+    readiness_checks:
+      - delivery and customer communication can run predictably
+    failure_signals:
+      - no agreed communication path for key roles
+  03-06:
+    required_questions:
+      - Which decisions should metrics support?
+    artifact_checks:
+      - metrics have method and cadence
+    readiness_checks:
+      - project can be monitored with stated metrics
+    failure_signals:
+      - metric list has no decision purpose
+  04-04:
+    required_questions:
+      - What changed since the last review or report?
+    artifact_checks:
+      - status report is grounded in current artifacts
+    readiness_checks:
+      - current health can be explained quickly
+    failure_signals:
+      - roadmap and risk register are stale
+  04-05:
+    required_questions:
+      - What does the customer need to know now?
+    artifact_checks:
+      - report shows progress vs plan and decisions needed
+    readiness_checks:
+      - report is decision-useful to the audience
+    failure_signals:
+      - report tone or content hides material issues

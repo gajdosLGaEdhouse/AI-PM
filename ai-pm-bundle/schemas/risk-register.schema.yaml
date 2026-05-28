@@ -1,0 +1,15 @@
+type: csv
+required_columns:
+  - id
+  - kategorie_rizika
+  - nazev
+  - popis
+  - stav_rizika
+  - pravdepodobnost
+  - stav_mitigace
+allowed_categories:
+  - Technické
+  - Časové
+  - Personální
+  - Externí
+  - Ostatní

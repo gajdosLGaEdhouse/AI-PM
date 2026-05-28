@@ -1,0 +1,7 @@
+type: object
+required:
+  - in_scope
+  - out_of_scope
+  - constraints
+  - dependencies
+  - assumptions

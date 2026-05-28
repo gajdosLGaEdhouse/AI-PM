@@ -1,0 +1,8 @@
+type: object
+required:
+  - reporting_period
+  - status_summary
+  - progress
+  - plan_vs_actual
+  - risks
+  - next_outlook

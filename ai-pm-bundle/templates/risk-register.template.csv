@@ -1,0 +1,2 @@
+id,kategorie_rizika,nazev,popis,zdroj_rizika,dopad_rizika,stav_rizika,pravdepodobnost,mitigacni_plan,stav_mitigace,reakce_pokud_nastane,owner,trigger,confidence,linked_artifacts,review_date
+R-001,Technické,Example risk,Describe the risk,Source or cause,Impact if realized,Otevřeno,Střední,Planned mitigation,Zmírněno,Immediate reaction if it occurs,TBD,Observable trigger,medium,artifacts/project-charter.md,YYYY-MM-DD

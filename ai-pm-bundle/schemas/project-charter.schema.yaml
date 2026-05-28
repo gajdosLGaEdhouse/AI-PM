@@ -1,0 +1,12 @@
+type: object
+required:
+  - project_name
+  - customer
+  - supplier
+  - subject
+  - goal
+  - outputs
+  - governance
+notes:
+  - use the project-charter template structure
+  - keep assumptions and open questions explicit
