@@ -150,7 +150,7 @@ The AI-PM Bundle defines a **minimum viable set** of artifacts. Create them in t
 **What to include:**
 
 | Section | Content |
-|---------|---------|
+|---------|----------|
 | **Executive Summary** | Project will automate compliance monitoring, reduce costs by $360K/year, improve accuracy to 99%+ |
 | **Scope** | MVP: Dashboard, rules engine, reports. Phase 2: ML, analytics |
 | **Success Criteria** | 99%+ accuracy, 2-4 hour reports, 90%+ auto-processing, 99.5% uptime |
@@ -201,7 +201,7 @@ The AI-PM Bundle defines a **minimum viable set** of artifacts. Create them in t
 **Identified Risks:**
 
 | Risk | Probability | Impact | Mitigation |
-|------|-------------|--------|-----------|
+|------|-------------|--------|------------|
 | Scope creep | High | High | Change control, freeze scope Week 4 |
 | Integration complexity | Medium | High | Early arch review, prototype Week 2 |
 | User resistance | Medium | Medium | Analyst involvement, training plan |
